@@ -6,12 +6,13 @@
   --dark-background-color: #2f303a;
   --grey-background-color: #f5f4fa;
   --accent-color: #2196f3;
-  --footer-text-color: rgba(255, 255, 255, 0, 6);
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --primary-font-family: Roboto, sans-serif;
 }
 
 body {
   color: var(--primary-text-color);
-  font-family: Roboto, sans-serif;
+  font-family: var(--primary-font-family);
   font-size: 14px;
   letter-spacing: 0.03em;
 }
@@ -72,6 +73,7 @@ body {
 .button {
   color: var(--hero-text-color);
   background-color: var(--accent-color);
+  font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -159,6 +161,7 @@ body {
 /* portfolio navigation section */
 
 .nav-button {
+  font-family: var(--primary-font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
